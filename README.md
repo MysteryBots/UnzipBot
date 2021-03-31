@@ -76,10 +76,11 @@ Note : Fill both or leave both unless bot won't work.
 
 ## Functions
 > More features soon, this is an minimal example :) 
-1) Send any zio file and rest on the bot
+1) Send any zip/rar file, choose a mode and rest on the bot. 
 
 ## To-Do
 > That's on you mainly...
+1) Zipping feature maybe.
 
 ## Stats
 [![GitHub forks](https://img.shields.io/github/forks/MysteryBots/UnzipBot.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/MysteryBots/UnzipBot/network/) [![GitHub stars](https://img.shields.io/github/stars/MysteryBots/UnzipBot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/MysteryBots/UnzipBot/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/MysteryBots/UnzipBot.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/MysteryBots/UnzipBot/watchers/)
@@ -99,7 +100,6 @@ Note : Fill both or leave both unless bot won't work.
 
 ## Credits
 - [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
-- [@The_Firefrost](https://t.me/The_firefrost) for the idea.
 
 ## Support
 Channel :- [@MysteryBots](https://t.me/MysteryBots)
