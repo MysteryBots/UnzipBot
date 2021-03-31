@@ -1,7 +1,7 @@
 {
-  "name": "Unzip Bot",
-  "description": "Telegram bot to unzip files.",
-  "logo": "https://telegra.ph/file/9648040e583a7e0e6373d.jpg",
+  "name": "Unzip and Unrar Bot",
+  "description": "Telegram bot to unzip and Unrar files.",
+  "logo": "https://telegra.ph/file/4dbd4680a4f794fce88ce.jpg",
   "keywords": [
     "telegram",
     "bot",
