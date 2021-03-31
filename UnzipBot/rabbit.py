@@ -15,6 +15,7 @@ rabbit_filter = filters.create(lambda _, __, query: query.data.lower() == "rabbi
 async def _rabbit(unzipbot, callback_query):
     start = datetime.now()
     msg = callback_query.message.reply_to_message
+    await callback_query.message.delete()
     file_name = msg.document.file_name
     file_size = msg.document.file_size
     if file_size > 1524288000:
