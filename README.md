@@ -1,7 +1,7 @@
 # Unzip Bot
 > A star ⭐ from you means a lot to us! 
 
-<p align="center"><a href="https://www.github.com/MysteryBots/UnzipBot"><img src="https://telegra.ph/file/9648040e583a7e0e6373d.jpg" width="5000"></a></p>
+<p align="center"><a href="https://www.github.com/MysteryBots/UnzipBot"><img src="https://telegra.ph/file/4dbd4680a4f794fce88ce.jpg" width="5000"></a></p>
 
 
 Telegram bot to unzip files.
