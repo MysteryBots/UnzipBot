@@ -11,7 +11,7 @@ async def progress(current, total, message, process):
     try:
         await message.edit(f"**{process}** \n\n**Progress :** {new_current}/{new_total} | {percentage}℅")
     except FloodWait as e:
-        time.sleep(e)
+        time.sleep(e.x)
 
 
 async def absolute_paths(directory):

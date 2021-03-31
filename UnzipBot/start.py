@@ -1,5 +1,4 @@
 from Data import Data
-from Config import Config
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup
 
@@ -7,7 +6,6 @@ from pyrogram.types import InlineKeyboardMarkup
 # Start Message
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
 async def start(unzipbot, msg):
-    print("/start")
     user = await unzipbot.get_me()
     mention = user["mention"]
     await unzipbot.send_message(

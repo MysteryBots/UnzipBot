@@ -9,5 +9,6 @@ async def about(unzipbot, msg):
     await msg.reply(
         text=Data.ABOUT,
         disable_web_page_preview=True,
+        disable_notification=True,
         reply_markup=InlineKeyboardMarkup(Data.home_button),
     )
