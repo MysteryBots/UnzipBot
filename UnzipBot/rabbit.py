@@ -22,10 +22,8 @@ async def _rabbit(unzipbot, callback_query):
         await msg.reply("Files with size more than 500 MB aren't allowed.", quote=True)
         return
     try:
-        # Download
         main = await msg.reply("Downloading...", quote=True)
         file = await msg.download()
-        # Extraction
         await main.edit("Extracting Files...")
         if file_name.endswith(".zip"):
             with zipfile.ZipFile(file, 'r') as zip_ref:
@@ -35,7 +33,6 @@ async def _rabbit(unzipbot, callback_query):
             with rarfile.RarFile(file, 'r') as rar_ref:
                 rar_ref.extractall("downloads")
             dir_name = file.replace(".rar", "")
-        # Send Extracted
         extracted_files = [i async for i in absolute_paths(dir_name)]
         for file in extracted_files:
             try:

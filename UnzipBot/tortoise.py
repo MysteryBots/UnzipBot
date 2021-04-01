@@ -22,10 +22,8 @@ async def _tortoise(unzipbot, callback_query):
         await msg.reply("Files with size more than 500 MB aren't allowed.", quote=True)
         return
     try:
-        # Download
         main = await msg.reply("Downloading...", quote=True)
         file = await msg.download(progress=progress, progress_args=(main, "Downloading..."))
-        # Extraction
         await main.edit("Extracting Files...")
         if file_name.endswith(".zip"):
             with zipfile.ZipFile(file, 'r') as zip_ref:
@@ -37,7 +35,6 @@ async def _tortoise(unzipbot, callback_query):
                 contents = rar_ref.namelist()
                 rar_ref.extractall("downloads")
             dir_name = file.replace(".rar", "")
-        # Contents
         con_msg = await msg.reply("Checking Contents for you...", quote=True)
         constr = ""
         for a in contents:
@@ -54,7 +51,6 @@ async def _tortoise(unzipbot, callback_query):
         else:
             await msg.reply(ans)
         await con_msg.delete()
-        # Send Extracted
         extracted_files = [i async for i in absolute_paths(dir_name)]
         number = 0
         for file in extracted_files:
