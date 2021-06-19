@@ -64,7 +64,7 @@ async def _tortoise(unzipbot, callback_query):
                 time.sleep(e.x)
         stop = datetime.now()
         await msg.reply(
-            f"Extraction Done Successfully..! \n\nTook {round((stop - start).total_seconds() / 60, 2)} minutes \n\nFor more bots visit @MysteryBots")
+            f"Extraction Done Successfully..! \n\nTook {round((stop - start).total_seconds() / 60, 2)} minutes \n\nFor more bots visit @disneygrou")
     except rarfile.RarCannotExec:
         await msg.reply("**ERROR :** This File is possibly bugged. Cannot extract content. \n\n"
                         "This may happen when a file's extension is manually changed to `.zip`/`.rar` even when file isn't in that format. \n\n"
