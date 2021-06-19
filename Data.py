@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     # Start Message
-    START = "Hey {}. \n\nWelcome to {} \n\nI can unzip & unrar files you send me and upload them to our private chat. \nI will also total the contents & number of files."
+    START = "Hey {}. \n\nWelcome to {} \n\nI can unzip & unrar files you send me and upload them to your private chat or to you. \nI will also total the contents & number of files."
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -19,10 +19,10 @@ class Data:
             print("Quitting the bot")
             raise SystemExit
     else:
-        START += f"\n\nBy @MysteryBots ♥"
+        START += f"\n\nBy @disneygrou ♥"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an open source Unzip bot by @MysteryBots \n\nSource : [Click Here](https://github.com/MysteryBots/UnzipBot) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Mყʂƚҽɾყ Bσყ](https://t.me/MysteryxD)"
+    ABOUT = "**About This Bot** \n\nThis is an Private source Unzip bot by @disneygrou \n\n👨‍🔧updates channel👨‍🔧 : [Disney Team](https://t.me/disneygrou) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Doreamonfans1](https://t.me/Doreamonfans1)"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -40,10 +40,7 @@ class Data:
     DEPLOY = """
 **Wanna create your own such bot??** 
 
-This is simple and open source bot. 
-Just click below on source code and tap on "Deploy to Heroku" to create your own bot. 
-
-Click Here for [Source Code](https://github.com/MysteryBots/UnzipBot)
+This is made by python and this source code is private we will make the source code open and update some bugs wait until then😁
 """
     
     HELP = """
@@ -58,7 +55,7 @@ I'll unzip/unrar it and return you it's contents.
 /help - This Message.
 /start - Check if bot is alive.
 
-**Support** - @MysteryBots & @MysteryBotsChat
+**Support** - @disneyteamchat or contact owner @doreamonfans1 
 """
     
     MODES = """
@@ -88,7 +85,7 @@ This is bit fast but only recommended for larger files as smaller files won't ha
     CHOOSE_MODE = "**CHOOSE MODE ** \n\nChoose a mode from below to start extracting files..."
 
     # Home Button
-    home_button = [[InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]]
+    home_button = [[InlineKeyboardButton(text="🏠 Home 🏠", callback_data="home")]]
 
     # Modes Buttons
 
@@ -104,10 +101,10 @@ This is bit fast but only recommended for larger files as smaller files won't ha
     buttons = [
         [
             InlineKeyboardButton("What are Modes ❔", callback_data="modes"),
-            InlineKeyboardButton("📤 About 📤", callback_data="about"),
+            InlineKeyboardButton("🤔 About🤔", callback_data="about"),
         ],
-        [InlineKeyboardButton("How to Use me ⁉️", callback_data="help")],
-        [InlineKeyboardButton("Create your own bot", callback_data="deploy")],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        [InlineKeyboardButton("How to Use me ❓", callback_data="help")],
+        [InlineKeyboardButton("👨‍💻Developer👨‍💻", url="https://t.me/doreamonfans1")],
+        [InlineKeyboardButton("👨‍🔧updates channel👨‍🔧", url="https://t.me/disneygrou")],
+        [InlineKeyboardButton("🤖support group🤖", url="https://t.me/disneyteamchat")],
     ]
