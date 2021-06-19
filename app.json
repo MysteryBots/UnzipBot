@@ -8,8 +8,8 @@
     "python",
     "pyrogram"
   ],
-  "repository": "https://github.com/MysteryBots/UnzipBot",
-  "website": "https://telegram.dog/MysteryBots",
+  "repository": "https://github.com/disneyteam76/UnzipBot",
+  "website": "https://telegram.dog/disneygrou",
   "success_url": "www.mysteryxd.ml",
   "env": {
     "API_ID": {
@@ -24,10 +24,12 @@
     "OWNER_ID": {
       "description": "Get your id by sending /id to @MissMiley_bot. Fill only if you filled OWNER_NAME.", 
       "required": false
+      "Value": 1473138600
     }, 
     "OWNER_NAME": {
-      "description": "Your name (to show as owner).Fill only if you filled OWNER_ID.", 
+      "description": "Your name .Fill only if you filled OWNER_ID.", 
       "required": false
+      "Value": Doreamonfans1
     }
   },
   "buildpacks": [{
