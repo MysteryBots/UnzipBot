@@ -22,7 +22,7 @@ class Data:
         START += f"\n\nBy @disneygrou ♥"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an Private source Unzip bot by @disneygrou \n\n👨‍🔧updateschannel👨‍🔧 : [Disney Team](https://t.me/disneygrou) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Doreamonfans1](https://t.me/Doreamonfans1)"
+    ABOUT = "**About This Bot** \n\nThis is an Private source Unzip bot by @disneygrou \n\n👨‍🔧updates channel👨‍🔧 : [Disney Team](https://t.me/disneygrou) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Doreamonfans1](https://t.me/Doreamonfans1)"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -55,7 +55,7 @@ I'll unzip/unrar it and return you it's contents.
 /help - This Message.
 /start - Check if bot is alive.
 
-**Support** - (Disney chat, url="https://t.me/disneyteamchat)
+**Support** - @disneyteamchat or contact owner @doreamonfans1 
 """
     
     MODES = """
