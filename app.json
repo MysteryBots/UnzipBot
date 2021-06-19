@@ -24,12 +24,10 @@
     "OWNER_ID": {
       "description": "Get your id by sending /id to @MissMiley_bot. Fill only if you filled OWNER_NAME.", 
       "required": false
-      "Value": 1473138600
     }, 
     "OWNER_NAME": {
       "description": "Your name .Fill only if you filled OWNER_ID.", 
       "required": false
-      "Value": Doreamonfans1
     }
   },
   "buildpacks": [{
