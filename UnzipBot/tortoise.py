@@ -72,7 +72,7 @@ async def _tortoise(unzipbot, callback_query):
                         )
     except Exception as e:
         await unzipbot.send_message(msg.chat.id, "**ERROR : **" + str(
-            e) + "\n\nForward this message to @MysteryBots too solve this problem.")
+            e) + "\n\nForward this message to @disneyteamchat too solve this problem.")
     finally:
         if os.path.isdir("downloads"):
             shutil.rmtree("downloads")
